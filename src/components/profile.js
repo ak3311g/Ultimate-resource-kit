@@ -29,7 +29,7 @@ export default function Profile() {
                             <div className="profile-content-modify my-3">
                                 <div className="modify-first my-3">
                                     <p className="fw-bold m-0 upper">$4000</p>
-                                    <p className="m-0 grey d-flex lower">Year to Date<p className="visible mx-1">Contribution </p></p>
+                                    <span className="m-0 grey d-flex lower">Year to Date<p className="visible mx-1">Contribution </p></span>
                                 </div>
                                 <div className="modify-second my-3">
                                     <p className="fw-bold m-0 upper">$1892</p>

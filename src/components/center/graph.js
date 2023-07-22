@@ -3,7 +3,7 @@ import Chart from 'react-apexcharts';
 import { useState } from "react";
 
 export default function Graph() {
-    const [series, setSeries] = useState([{
+    const [series] = useState([{
         name: 'Employer',
         data: [44, 55, 41, 67, 22, 43,76,97,45,54,76,35,76]
         }, {
@@ -14,7 +14,7 @@ export default function Graph() {
         data: [11, 17, 15, 15, 21, 14,75,35,67,23, 20, 8, 13]
         }]);
 
-    const [options, setOptions] = useState({
+    const [options] = useState({
         chart: {
             type: 'bar',
             height: 350,
