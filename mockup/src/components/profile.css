@@ -1,0 +1,207 @@
+.profile-block{
+    background-color: #FAFAFA;
+    flex: 0.7;
+    padding: 50px 50px;
+    max-width: 400px;
+    min-width: 350;
+}
+
+.profile-block .notification{
+    display: none !important;
+}
+
+.profile-block .profile-content .profile-content-details .grey{
+    color:#B9B9B9;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.profile-block .profile-content .profile-transactions h1{
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.profile-block .profile-content .profile-transactions .transactions{
+    font-weight: 600;
+}
+
+.profile-block .profile-content .profile-transactions .transactions .transaction-details{
+    font-size: 12px;
+}
+
+.profile-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.profile-img{
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img img{
+    width: 70px;
+    height: 70PX;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-details{
+    padding: 0;
+}
+
+.profile-details .name{
+    margin-left: 50px;
+}
+
+.profile-details .name h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.profile-details .name p{
+    font-size: 12px;
+    color: #666;
+    font-weight: 600;
+}
+
+.button-block{
+    display: flex;
+}
+
+.button-block .button{
+    background-color: #4935FF;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+}
+
+@media screen and (max-width: 1450px){
+    .profile-details .name{
+        margin-left: 20px;
+        width: 90px;
+    }
+}
+
+
+
+@media screen and (max-width: 800px){
+
+    .button-block{
+        justify-content: center;
+    }
+
+    .profile-details .name h2{
+        font-size: 30px;
+    }
+    
+    .profile-details .name p{
+        font-size: 15px;
+    }
+
+    .profile-img img{
+        width: 100px;
+        height: 100PX;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .profile-details .name{
+        width: auto;
+    }
+
+    .profile-block{
+        max-width: 100%;
+        background-color: white;
+    }
+
+    .visible{
+        display: none;
+    }
+
+    .profile-block .profile-content .profile-content-details{
+        background-color: #FAFAFA;
+        padding: 20px;
+        border-radius: 30px;
+    }
+
+    .profile-block .profile-content .profile-transactions{
+        background-color: #FAFAFA;
+        padding: 20px;
+        border-radius: 30px;
+    }
+
+    .profile-block .profile-content .profile-content-details .profile-content-fixed .upper{
+        font-size: 20px;
+    }
+
+    .profile-block .profile-content .profile-content-details .profile-content-fixed .middle{
+        font-size: 40px !important;
+    }
+
+    .profile-block .profile-content .profile-content-details .profile-content-fixed .lower{
+        font-size: 15px;
+    }
+
+    .profile-block .profile-content .profile-content-details .profile-content-modify{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .profile-block .profile-content .profile-content-details .profile-content-modify .upper{
+        font-size: 25px;
+    }
+
+    .profile-block .profile-content .profile-content-details .profile-content-modify .lower{
+        font-size: 15px;
+    }
+
+    .profile-block .profile-content .profile-content-details .profile-content-modify{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 660px){
+
+    .profile-block .notification{
+        display: flex !important;
+        justify-content: flex-end;
+    }
+
+    .profile-block .profile-content .profile-content-details .profile-content-fixed .upper{
+        font-size: 20px;
+    }
+
+    .profile-block .profile-content .profile-content-details .profile-content-fixed .middle{
+        font-size: 40px !important;
+    }
+
+    .profile-block .profile-content .profile-content-details .profile-content-fixed .lower{
+        font-size: 15px;
+    }
+
+    .profile-block .profile-content .profile-content-details .profile-content-modify{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .profile-block .profile-content .profile-content-details .profile-content-modify .upper{
+        font-size: 25px;
+    }
+
+    .profile-block .profile-content .profile-content-details .profile-content-modify .lower{
+        font-size: 15px;
+    }
+}

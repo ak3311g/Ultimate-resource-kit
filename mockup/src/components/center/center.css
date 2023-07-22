@@ -1,0 +1,213 @@
+.center-panel{
+    flex: 1;
+    padding: 20px 60px;
+    margin: 0 0 0 50px;
+    max-width: 700px;
+}
+
+.goal-block .goal-block-fixed .goal-block-year{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.goal-block .goal-block-fixed .goal-block-heading{
+    color: #4935FF;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 30px 0 0 0;
+}
+
+.goal-block-amount-block{
+    display: flex;
+    margin-top: 30px;
+}
+
+.goal-block-amount-block .goal-block-amount-card{
+    margin: 0 10px;
+}
+
+.goal-block-amount-block .goal-block-amount-card .card-content .goal-block-amount{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.goal-block-amount-subheading{
+    color: grey;
+    margin: 0;
+    font-weight: 500;
+}
+
+.goal-block-amount-card .hr{
+    border: 1px solid #4935FF;
+    margin: 20px 0 20px 0;
+}
+
+.goal-block-amount-card .card-content{
+    padding-right: 50px;
+}
+
+/* Graph CSS */
+
+.graph{
+    margin-top: 50px;
+}
+
+.graph .graph-content .graph-heading{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    width: 400px;
+}
+
+.graph .graph-item-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.graph .graph-item-block .graph-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.graph .graph-item-block .graph-items .graph-color{
+    width: 20px;
+    height: 10px;
+    border-radius: 7px;
+}
+
+.graph .graph-item-block .graph-items .graph-color-item .graph-color-item-heading{
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 10px;
+    color: grey;
+}
+
+.graph .graph-item-block .graph-items .graph-color-value-heading{
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Dropdown */
+
+.compare-block .compare-block-heading .heading{
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.compare-block .compare-block-heading .subheading{
+    color: #C3C3C3;
+    margin: 0;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.compare-block-graphs{
+    margin: 0 0 0 0;
+}
+
+.compare-block-graph .compare-block-graph-item .dropdown-label{
+    color: darkslategrey;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 15px 0 10px;
+}
+
+.compare-block-graph .compare-block-graph-item .dropdown-options{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: rgb(74, 73, 73);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.compare-block-graph .compare-block-graph-item .dropdown-options .dropdown-value{
+    color: rgb(74, 73, 73);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.compare-block-graph .compare-block-graph-item .dropdown-options{
+    appearance: none;
+    background-image: url(../../images/caret-down-solid.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 10px;
+    padding-right: 17px;
+}
+
+.compare-block-graph .compare-block-graph-item .hr{
+    border: 1px solid #070707;
+    margin: 20px 0 20px 0;
+}
+
+.graph-content{
+    width: 150px;
+}
+
+@media screen and (max-width: 800px){
+
+    .center-panel{
+        width: 100%;
+    }
+
+    .compare-block-graph{
+        flex-direction: column;
+    }
+    .graph .graph-item-block .graph-items{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+
+@media screen and (max-width: 660px){
+
+    .goal-block .goal-block-fixed .goal-block-year{
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0;
+    }
+    
+    .goal-block .goal-block-fixed .goal-block-heading{
+        color: #4935FF;
+        font-size: 12px;
+        font-weight: 700;
+        margin: 30px 0 0 0;
+    }
+
+    .goal-block-amount-block{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .goal-block-amount-block .goal-block-amount-card .card-content .goal-block-amount{
+        font-size: 30px;
+        font-weight: 700;
+        margin: 0;
+    }
+    
+    .goal-block-amount-subheading{
+        color: grey;
+        margin: 0;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .center-panel{
+        max-width: 400px;
+    }
+    .graph-content{
+        width: 100px;
+    }
+}

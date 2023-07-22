@@ -1,0 +1,51 @@
+.homepage{
+    width: fit-content;
+}
+
+.navbar{
+    width: 50px;
+    position: absolute;
+    height: 150vh;
+}
+
+.navbar-mobile{
+    display: none;
+}
+
+.navbar .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .logo img{
+    width: 30px;
+    margin: 10px 0 10px 0;
+}
+
+@media screen and (max-width: 800px){
+    
+    .homepage{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar{
+        display: none !important;
+    }
+
+    .navbar-mobile{
+        display: flex !important;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin: 0 30px 0 30px;
+        position: fixed;
+        bottom: 0;
+        background-color: white;
+        height: 50px;
+        z-index: 100;
+    }
+}

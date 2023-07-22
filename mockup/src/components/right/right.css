@@ -1,0 +1,133 @@
+.strategy-block{
+    flex: 0.7;
+    padding: 30px 30px;
+    max-width: 450px;
+    min-width: 350px;
+}
+
+.strategy-block .strategy-block-bg{
+    padding: 20px;
+    background-color: #FAFAFA;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.strategy-block .strategy-block-bg .heading{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.strategy-block .strategy-block-bg .scroll-bar{
+    margin: 2% 0px;
+}
+
+.strategy-block .strategy-block-bg .scroll-bar .scroll-heading{
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.strategy-block .strategy-block-bg .scroll-bar .scroll-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+
+.strategy-block .strategy-block-bg .scroll-bar .scroll-line .scroll-block input{
+    width: 150%;
+}
+
+.strategy-block .strategy-block-bg .scroll-bar .scroll-line .scroll-value p{
+    margin:0;
+}
+
+.strategy-block .strategy-block-bg .strategy-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.strategy-block .strategy-block-bg .strategy-button button{
+    background-color: #4935FF;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 0;
+    border: none;
+}
+
+.strategy-block .strategy-block-bg .strategy-button a{
+    text-decoration: none;
+    color: #4935FF;
+    font-weight: 700;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.strategy-block .strategy-block-bg .strategy-button a .fa-caret-right{
+    margin-left: 10px;
+}
+
+.strategy-block .strategy-block-bg .info-block{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 20px 0;
+}
+
+.strategy-block .strategy-block-bg .info-block .details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.strategy-block .strategy-block-bg .strategy-button button{
+    width: 100%;
+    margin: 30px;
+}
+
+.strategy-block .extra-details{
+    border-left: 1px solid #4935FF;
+    padding: 10px 20px 10px 20px;
+    margin: 20px 0 20px 0;
+}
+
+.strategy-block .extra-details .normal{
+    font-size: 18px;
+}
+
+.strategy-block .extra-details .bolder{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.strategy-block .extra-details .light{
+    font-size: 15px;
+    color: grey;
+}
+
+.strategy-block .extra-details .blue{
+    color: #4935FF;
+}
+
+.strategy-block .extra-details .blue .fa-caret-right{
+    margin-left: 10px;
+}
+
+/* ProgressBar CSS */
+.slider{
+    width: 100%;
+    height: 5px;
+    opacity: 0.6;
+}
+
+
+@media screen and (max-width: 800px){
+    .strategy-block{
+        max-width: 100%;
+        min-width: 100%;
+    }
+}
